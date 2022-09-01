@@ -1,0 +1,55 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <center> Calculater</center>
+    <div class="main">
+        <form name="form1">
+            <input class="textview" name="textview">
+        </form>
+        <div class="mainto">
+
+            <input class="c" type="button" value=" C " onclick="form1.textview.value = ' ' ">
+            <input class="b" type="button" value=" B " onclick="backspace()">
+            <input class="d" type="button" value=" / " onclick="insert('/')">
+            <input class="m" type="button" value=" * " onclick="insert('*')">
+
+
+
+            <input class="seven" type="button" value=" 7 " onclick="insert(7) ">
+            <input class="eight " type="button" value=" 8 " onclick="insert(8) ">
+            <input class="nine " type="button" value=" 9 " onclick="insert(9) ">
+            <input class="mm" type="button" value="-" onclick="insert('-') ">
+
+
+
+            <input class="four " type="button" value=" 4 " onclick="insert(4) ">
+            <input class="five " type="button" value=" 5 " onclick="insert(5) ">
+            <input class="six " type="button" value=" 6 " onclick="insert(6) ">
+            <input class="p" type="button" value="+" onclick="insert( '+') ">
+
+
+
+            <input class="one " type="button" value=" 1 " onclick="insert(1) ">
+            <input class="two " type="button" value=" 2 " onclick="insert(2) ">
+            <input class="three " type="button" value=" 3 " onclick="insert(3) ">
+            <input class="e" type="button" value="=" onclick=" equal() ">
+
+
+            <input class="zero " type="button" value=" 0 " onclick="insert(0) ">
+            <input class="dd " type="button" value="." onclick="insert( '.') ">
+        </div>
+    </div>
+
+
+    <script src="script.js "></script>
+</body>
+
+</html>
